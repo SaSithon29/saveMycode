@@ -1,0 +1,21 @@
+// function JS is First-class citizens 
+// function  => Data 
+// function  => variable
+// function => value  value=function
+// function => Parameter
+
+// higher order function = function is รับ function มาเป็น ps 
+                                    // && return function
+
+// JS is single thread ทำได้เสมือนหลายงานในหนึ่งเวลาเดียวกันได้ โดยอ้อม
+// เกิดจากกลไก event loop
+
+
+// JS is case-sensitive
+// comment : //... or /*...*/ 
+
+////reserved word คำที่ห้ามใช้ตั้งชื่อ เพราะซ้ำกับstatement
+
+//// Data type 
+// Primitive value : Number String Boolean BigInt Symbol Null Undefined
+// Object

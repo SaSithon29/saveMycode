@@ -1,0 +1,53 @@
+//Expression นิพจน์
+let x = 1
+x++ = ++x
+
+let x=1
+let y=x++ //postfix
+console.log(y) //=1
+let y=++x //prefix
+console.log(y) //=2
+
+
+
+
+true && ? //ต้องมองขวานะเพราะยังไม่จริง
+false && ? //ไม่มองขวานะเพราะมันไม่จริง
+
+true || ? //ไม่มองขวาแล้วเพราะจริงแน่นอน
+
+
+
+// //Conditional Operator ( ? Expression :Expression )
+//let num=6
+// let b=num%2===0?"even":"odd"
+
+
+
+//Optional chaining (?.) หลักใช้กับObject & Array DataType
+//กันปัญหาการ show error when Object & Array is null/undefined
+//ถ้าเป็น null/undefined จะreturn undefined ให้
+// let obj1={Name:'Sasi',ID: 201,Date:23}
+// let obj2
+// console.log(obj1)
+// console.log(obj2.ID) //Cannot read properties of undefined (reading 'ID')
+// console.log(obj2?.ID) //undefined
+
+
+
+
+//Nullish Coalescing binary ต้องการ 2 operand
+//if left not Null/Undefined > return left operand
+                      //else > return right operand
+
+
+
+
+// //for..loop เช็คเงื่อนไข ; ;update ; ต้องรับค่า next index: let
+
+//for..of ;รับค่า const let var
+//(variable ตัวแปรชั่วคราว of array) > value each index
+                          String) > ตัวอักษร each
+
+//for..in
+//(variable ตัวแปรชั่วคราว of object) >key or value of key

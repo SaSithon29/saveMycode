@@ -1,0 +1,83 @@
+//// Immutable ตัวแปรที่เปลี่ยนค่าไม่ได้ 
+//primitive เปลี่ยนรูปไม่ได้ เปลี่ยนแปลงค่าไม่ได้
+srt='hello boe'
+ str.toUpperase => str no to change toUpperase
+
+
+//// mutable ตัวแปรเปลี่ยนค่าได้
+// Object
+
+// Identifier การตั้งชื่อ
+
+
+
+////variable declaration การประกาศตัวแปร
+// var ;default เปลี่ยนแปลงค่าได้ ; dont have block Scope
+
+//let เปลี่ยนแปลงค่าได้
+
+//const เปลี่ยนค่าไม่ได้ ต้องกำหนดค่าเสมอ
+//const เปลี่ยนค่าไม่ได้ ต้องกำหนดค่าเสมอ
+//const primitive ;UpperCase 
+//const Object;caMalcase
+
+
+
+////Scope 
+// Block scope into {} ; >>> is Block scope ;dont have var 
+ Ex. if(){
+    >>>   
+}
+
+// Function scope ; //_// is Function scope
+ Ex. Function name(){
+
+}
+//
+
+//Global ; out to Function scope && Block scope
+
+
+
+//JS String
+/String = Array of character
+//index begin=0 ; lenght :property
+
+
+// `` backtrick=Template Literals
+//เขียนข้อความค่าคงที่ ร่วมตัวแปรได้
+// with ${}ใส่ตัวแปรได้ คำนวณได้
+
+
+//Implicit type convertion รูปย่อ การตีความโดยนัย
+ Ex. if(0) 
+      =
+     if(boolean(0))
+//Explicit type 
+
+//operator ตัวดำเนินการ  +,-,*,/
+//operant  ตัวถูกดำเนินการ
+
+//+ ;+ String  ; + Number
+//- = - ; * = * ; / = /
+
+undefined: toString:"undefined" ;toNumber:NaN ;toBoolean:false
+null: toString:"null" ;toNumber:0 ;toBoolean:false
+true: toString:"true" ;toNumber:1;
+false: toString:"false" ;toNumber:0
+
+"" : toNumber:0 ;toBoolean:false
+"1.2"(numeric): toNumber:0 ; toBoolean:false
+"a"(non empty,nonnumeric): toNumber:NaN ;toBoolean:true
+0 : toString:"0" ;toBoolean:false
+-0 : toString:"0" ;toBoolean:false
+
+"1" : toString:"1" ;toBoolean:true
+Infinity: toString:"Infinity" ;toBoolean:true
+-Infinity: toString:"-Infinity" ;toBoolean:true
+NaN : toString:"NaN" ;toBoolean:false
+
+[](empty array) : toString:"" ; toNumber:0 ;toBoolean:true
+[9](numeric array) : toString:"9" ; toNumber:9 ;toBoolean:true
+['a'](any other array) : toString:ใช้จอยMethod ; toNumber:NaN ;toBoolean:true
+
