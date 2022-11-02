@@ -7,23 +7,23 @@
 
 //JS String
 //String = Array of character
-// let str='Hello Servlet'
-// console.log(str[1])
+let str='Hello Servlet'
+console.log(str[1])
 //index begin=0 ; lenght :property
 
 
 // //Implicit
-// let student=['Sunisa']
-// if(student) 
-// //if (Boolean(student)) >>[empty/any array] >> true
-// console.log('empty')
-// else
-// console.log('not empty')
+let student=['Sunisa']
+if(student) 
+//if (Boolean(student)) >>[empty/any array] >> true
+console.log('empty')
+else
+console.log('not empty')
 
 // >>
-// let student=['Sunisa']
-// if(student.length=0) 
-// console.log('empty')
-// else
-// console.log('not empty')
+let student1=['Sunisa']
+if(student1.length=0) 
+console.log('empty')
+else
+console.log('not empty')
 
